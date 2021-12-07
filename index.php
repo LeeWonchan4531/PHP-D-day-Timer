@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
     <?php
-    echo "<meta http-equiv='refresh' content='0.5; url=http://wonchan.net/D-day/'>";
+    echo "<meta http-equiv='refresh' content='0.5; url=(Your redirect Link!)'>";
     $rem = strtotime('2021-12-02 00:02:00') - time();
     $day = floor($rem / 86400);
     $hr  = floor(($rem % 86400) / 3600);
